@@ -14,7 +14,7 @@
 *
 *  Author: SmartThings
 *
-*  Date: 2018-07-04
+*  Date: 2022-07-20
 *
 *	Updates by Barry A. Burke (storageanarchy@gmail.com)
 *	Date: 2017 - 2018
@@ -42,10 +42,10 @@
 *	1.1.06 - Optimized temp/humidity/pressure updates
 *	1.1.07 - Fixed Flagged sensors, added Hidden device support (needs owners's Key)
 *	1.1.08 - Added reference adjustments for Temp, Humidity & Pressure
-*   1.1.09 - Added ability to change pressure units
-*   1.1.10 - Updated to utilize Purple API (based on Peter Miller's Hubitat device driver 
+*       1.1.09 - Added ability to change pressure units
+*       1.1.10 - Updated to utilize Purple API (based on Peter Miller's Hubitat device driver 
 *                   (https://raw.githubusercontent.com/pfmiller0/Hubitat/main/PurpleAir%20AQI%20Virtual%20Sensor.groovy)
-*
+*       1.1.11 - Updated to support private Purple Air devices
 */
 import groovy.json.JsonSlurper
 import java.math.BigDecimal
